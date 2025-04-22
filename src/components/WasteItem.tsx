@@ -173,11 +173,11 @@ export default function WasteItemComponent({
           alt={item.name} 
           className="w-full h-full object-contain" 
           style={{ 
-            width: "100px", 
-            height: "100px", 
+            width: "140px", // Increased from 100px
+            height: "140px", // Increased from 100px
             position: "absolute",
-            top: "-15px",
-            left: "-15px"
+            top: "-30px", // Adjusted to center the larger image
+            left: "-40px" // Adjusted to center the larger image
           }}
         />
       ) : (

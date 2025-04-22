@@ -11,11 +11,12 @@ interface BinComponentProps {
 export default function BinComponent({ bin, onCollision }: BinComponentProps) {
   return (
     <div
-      className="absolute bottom-0 flex flex-col items-center"
+      className="absolute flex flex-col items-center"
       style={{
         left: `${bin.position.x}px`,
         width: `${bin.position.width}px`,
         height: "120px",
+        bottom: "20px", // Added padding at the bottom to prevent cutting off
       }}
     >
       <div className="text-xs text-center mb-1">{bin.name}</div>

@@ -257,6 +257,7 @@ export default function Game() {
       <div 
         ref={gameAreaRef}
         className="flex-1 relative overflow-hidden bg-gray-50 dark:bg-gray-900"
+        style={{ paddingBottom: "30px" }} // Added padding to ensure bins are fully visible
       >
         {/* Waste items */}
         {gameState.wasteItems.map(item => (
