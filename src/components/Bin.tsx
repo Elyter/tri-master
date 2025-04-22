@@ -28,7 +28,7 @@ export default function BinComponent({ bin, onCollision }: BinComponentProps) {
           data-bin-type={bin.type}
           style={{
             filter: "drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))",
-            height: "110px"
+            height: "150px"
           }}
         />
       ) : (

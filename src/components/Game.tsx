@@ -280,13 +280,6 @@ export default function Game() {
           />
         ))}
       </div>
-      
-      <div className="p-4 bg-gray-100 dark:bg-gray-800">
-        <p className="text-center text-sm">
-          Attrapez les déchets et déposez-les dans la bonne poubelle pour gagner des points.
-          Le papier va maintenant dans la poubelle jaune. Les objets spéciaux vont dans les points d'apport.
-        </p>
-      </div>
     </div>
   );
 }

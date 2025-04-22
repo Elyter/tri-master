@@ -173,11 +173,11 @@ export default function WasteItemComponent({
           alt={item.name} 
           className="w-full h-full object-contain" 
           style={{ 
-            width: "70px", 
-            height: "70px", 
+            width: "100px", 
+            height: "100px", 
             position: "absolute",
-            top: "-10px",
-            left: "-10px"
+            top: "-15px",
+            left: "-15px"
           }}
         />
       ) : (
