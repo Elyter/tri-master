@@ -21,7 +21,7 @@ export default function Game() {
   // Track processed items to prevent double scoring
   const processedItemsRef = useRef<Set<string>>(new Set());
   // Maximum number of active items
-  const MAX_ACTIVE_ITEMS = 5;
+  const MAX_ACTIVE_ITEMS = 3;
 
   // Initialize game
   useEffect(() => {
